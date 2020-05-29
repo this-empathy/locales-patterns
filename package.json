@@ -1,0 +1,30 @@
+{
+  "name": "@this-empathy/locales-patterns",
+  "version": "0.0.0",
+  "description": "A package to validate strings and input data with vanilla js",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/this-empathy/locales-patterns"
+  },
+  "keywords": [
+    "patterns",
+    "dates"
+  ],
+  "author": "Lucas Yarid & Giovanni Spolidorio & Paulo Calixto",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/this-empathy/locales-patterns/issues"
+  },
+  "homepage": "https://github.com/this-empathy/locales-patterns#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.6.0",
+    "jest": "^24.9.0"
+  },
+  "dependencies": {
+    "np": "^6.1.0"
+  }
+}
