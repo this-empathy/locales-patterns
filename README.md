@@ -2,9 +2,9 @@
 
 A package to provide patterns like Date to from many countries.
 
-# TODO
+### TODO
 
-Add phone patterns
+- Add phone patterns
 
 ## Getting Started
 
@@ -23,4 +23,4 @@ yarn add  @this-empathy/locales-patterns
 #### Import
 ```javascript
 import Locales from ' @this-empathy/locales-patterns'
-```
+```-

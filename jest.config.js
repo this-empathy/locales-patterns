@@ -5,6 +5,6 @@ module.exports = {
       '^.+\\.js$': 'babel-jest'
     },
     collectCoverage: true,
-    collectCoverageFrom: ['<rootDir>/utils/**/*.js', '<rootDir>/validations/**/*.js']
+    collectCoverageFrom: ['<rootDir>/pattern/**/*.js']
   }
   

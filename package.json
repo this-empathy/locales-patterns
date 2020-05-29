@@ -4,7 +4,8 @@
   "description": "A package to validate strings and input data with vanilla js",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "generate": "node ./pattern/patterns.js"
   },
   "repository": {
     "type": "git",
