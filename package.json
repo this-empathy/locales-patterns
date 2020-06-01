@@ -1,6 +1,6 @@
 {
   "name": "@this-empathy/locales-patterns",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A package to validate strings and input data with vanilla js",
   "main": "patterns.json",
   "scripts": {
