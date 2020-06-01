@@ -1,8 +1,8 @@
 {
   "name": "@this-empathy/locales-patterns",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A package to validate strings and input data with vanilla js",
-  "main": "index.js",
+  "main": "patterns.json",
   "scripts": {
     "test": "jest",
     "generate": "node ./pattern/patterns.js"

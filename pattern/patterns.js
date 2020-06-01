@@ -59,6 +59,6 @@ for (const key in locales) {
 }
 
 const json = JSON.stringify(obj)
-fs.writeFile('./locales/generate.json', json, 'utf8', function (err) {
+fs.writeFile('./patterns.json', json, 'utf8', function (err) {
 	err ? new Error(err) : console.log('Success')
 })

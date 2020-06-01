@@ -1,6 +1,6 @@
-import locales from '../index.js'
-
-describe('Date', () => {
-    console.log(locales);
+describe('Pattern', () => {
+    test('Mascara de Conta de Banco', () => {
+       
+    });
 });
   
