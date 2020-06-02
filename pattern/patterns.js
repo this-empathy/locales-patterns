@@ -11,7 +11,7 @@ const dataOptions = (data, code) => {
 		literal: data.value,
 		default: () => {
 			return console.error(
-				`${data.type} and  ${data.value} is not a data type - code: ${code}`
+				`dataOptions functions says - ${data.type} and  ${data.value} is not a data type - code: ${code}`
 			)
 		},
 	}
@@ -38,6 +38,37 @@ const getDatesPositions = (format) => {
 	return obj
 }
 
+const getRegex = (format) => {
+	const obj = {}
+
+	// ^(0?[1-9]|[12][0-9]|3[01])[\/\-](0?[1-9]|1[012])[\/\-]\d{4}$
+
+	const regexString = (data) => {
+		return {
+			month: '(0?[1-9]|1[012])',
+			day: '(0?[1-9]|[12][0-9]|3[01])',
+			year: '([0-9]{4})',
+			literal: data.value,
+			default: () => {
+				return console.error(
+					`getRegex functions says - ${data.type} and ${data.value} is not a data type`
+				)
+			},
+		}
+	}
+
+	format.forEach((item) => {
+		if (item.type == 'year' || item.type == 'day' || item.type == 'month') {
+			obj[item.type] =
+				regexString(item)[item.type] || regexString(item).default()
+		}
+	})
+
+	// obj.complete 
+
+	return obj
+}
+
 const hasEra = (formatObj) => {
 	const era = formatObj.filter((item) => item.type === 'era')
 	return !!era.length
@@ -51,9 +82,10 @@ for (const key in locales) {
 		obj[key] = {
 			name: locales[key].name,
 			code: locales[key].code,
-			dateFormat: parsePhoneFormat(code, formatObj),
-			splitedPositions: getDatesPositions(formatObj),
 			era: hasEra(formatObj),
+			dateFormat: parsePhoneFormat(code, formatObj),
+			dateSplitedPositions: getDatesPositions(formatObj),
+			dateRegex: getRegex(formatObj),
 		}
 	}
 }
