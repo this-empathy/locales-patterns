@@ -21,6 +21,7 @@ yarn add  @this-empathy/locales-patterns
 
 ### How to use
 #### Import
+
 ```javascript
 import Locales from ' @this-empathy/locales-patterns'
-```-
+```
