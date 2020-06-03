@@ -2,3053 +2,5233 @@
   "af_NA": {
     "name": "Afrikaans (Namibia)",
     "code": "af-NA",
+    "era": false,
     "dateFormat": "YYYY-MM-DD",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "af_ZA": {
     "name": "Afrikaans (South Africa)",
     "code": "af-ZA",
+    "era": false,
     "dateFormat": "YYYY-MM-DD",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "af": {
     "name": "Afrikaans",
     "code": "af",
+    "era": false,
     "dateFormat": "YYYY-MM-DD",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "ak_GH": {
     "name": "Akan (Ghana)",
     "code": "ak-GH",
-    "dateFormat": "YYYY/M/D",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "YYYY/MM/DD",
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "ak": {
     "name": "Akan",
     "code": "ak",
-    "dateFormat": "YYYY/M/D",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "YYYY/MM/DD",
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "sq_AL": {
     "name": "Albanian (Albania)",
     "code": "sq-AL",
-    "dateFormat": "D.M.YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD.MM.YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "sq": {
     "name": "Albanian",
     "code": "sq",
-    "dateFormat": "D.M.YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD.MM.YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "am_ET": {
     "name": "Amharic (Ethiopia)",
     "code": "am-ET",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "am": {
     "name": "Amharic",
     "code": "am",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "ar_DZ": {
     "name": "Arabic (Algeria)",
     "code": "ar-DZ",
-    "dateFormat": "D‏/M‏/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD‏/MM‏/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "ar_BH": {
     "name": "Arabic (Bahrain)",
     "code": "ar-BH",
-    "dateFormat": "D‏/M‏/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD‏/MM‏/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "ar_EG": {
     "name": "Arabic (Egypt)",
     "code": "ar-EG",
-    "dateFormat": "D‏/M‏/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD‏/MM‏/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "ar_IQ": {
     "name": "Arabic (Iraq)",
     "code": "ar-IQ",
-    "dateFormat": "D‏/M‏/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD‏/MM‏/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "ar_JO": {
     "name": "Arabic (Jordan)",
     "code": "ar-JO",
-    "dateFormat": "D‏/M‏/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD‏/MM‏/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "ar_KW": {
     "name": "Arabic (Kuwait)",
     "code": "ar-KW",
-    "dateFormat": "D‏/M‏/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD‏/MM‏/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "ar_LB": {
     "name": "Arabic (Lebanon)",
     "code": "ar-LB",
-    "dateFormat": "D‏/M‏/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD‏/MM‏/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "ar_LY": {
     "name": "Arabic (Libya)",
     "code": "ar-LY",
-    "dateFormat": "D‏/M‏/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD‏/MM‏/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "ar_MA": {
     "name": "Arabic (Morocco)",
     "code": "ar-MA",
-    "dateFormat": "D‏/M‏/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD‏/MM‏/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "ar_OM": {
     "name": "Arabic (Oman)",
     "code": "ar-OM",
-    "dateFormat": "D‏/M‏/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD‏/MM‏/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "ar_QA": {
     "name": "Arabic (Qatar)",
     "code": "ar-QA",
-    "dateFormat": "D‏/M‏/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD‏/MM‏/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "ar_SA": {
     "name": "Arabic (Saudi Arabia)",
     "code": "ar-SA",
-    "dateFormat": "D‏/MM‏/YYYY ",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": true
+    "era": true,
+    "dateFormat": "DD‏/MM‏/YYYY ",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "ar_SD": {
     "name": "Arabic (Sudan)",
     "code": "ar-SD",
-    "dateFormat": "D‏/M‏/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD‏/MM‏/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "ar_SY": {
     "name": "Arabic (Syria)",
     "code": "ar-SY",
-    "dateFormat": "D‏/M‏/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD‏/MM‏/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "ar_TN": {
     "name": "Arabic (Tunisia)",
     "code": "ar-TN",
-    "dateFormat": "D‏/M‏/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD‏/MM‏/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "ar_AE": {
     "name": "Arabic (United Arab Emirates)",
     "code": "ar-AE",
-    "dateFormat": "D‏/M‏/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD‏/MM‏/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "ar_YE": {
     "name": "Arabic (Yemen)",
     "code": "ar-YE",
-    "dateFormat": "D‏/M‏/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD‏/MM‏/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "ar": {
     "name": "Arabic",
     "code": "ar",
-    "dateFormat": "D‏/M‏/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD‏/MM‏/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "hy_AM": {
     "name": "Armenian (Armenia)",
     "code": "hy-AM",
+    "era": false,
     "dateFormat": "DD.MM.YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "hy": {
     "name": "Armenian",
     "code": "hy",
+    "era": false,
     "dateFormat": "DD.MM.YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "as_IN": {
     "name": "Assamese (India)",
     "code": "as-IN",
+    "era": false,
     "dateFormat": "DD-MM-YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "as": {
     "name": "Assamese",
     "code": "as",
+    "era": false,
     "dateFormat": "DD-MM-YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "asa_TZ": {
     "name": "Asu (Tanzania)",
     "code": "asa-TZ",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "asa": {
     "name": "Asu",
     "code": "asa",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "az_Cyrl": {
     "name": "Azerbaijani (Cyrillic)",
     "code": "az-Cyrl",
+    "era": false,
     "dateFormat": "DD.MM.YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "az_Cyrl_AZ": {
     "name": "Azerbaijani (Cyrillic, Azerbaijan)",
     "code": "az-Cyrl-AZ",
+    "era": false,
     "dateFormat": "DD.MM.YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "az_Latn": {
     "name": "Azerbaijani (Latin)",
     "code": "az-Latn",
+    "era": false,
     "dateFormat": "DD.MM.YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "az_Latn_AZ": {
     "name": "Azerbaijani (Latin, Azerbaijan)",
     "code": "az-Latn-AZ",
+    "era": false,
     "dateFormat": "DD.MM.YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "az": {
     "name": "Azerbaijani",
     "code": "az",
+    "era": false,
     "dateFormat": "DD.MM.YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "bm_ML": {
     "name": "Bambara (Mali)",
     "code": "bm-ML",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "bm": {
     "name": "Bambara",
     "code": "bm",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "eu_ES": {
     "name": "Basque (Spain)",
     "code": "eu-ES",
-    "dateFormat": "YYYY/M/D",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "YYYY/MM/DD",
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "eu": {
     "name": "Basque",
     "code": "eu",
-    "dateFormat": "YYYY/M/D",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "YYYY/MM/DD",
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "be_BY": {
     "name": "Belarusian (Belarus)",
     "code": "be-BY",
-    "dateFormat": "D.M.YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD.MM.YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "be": {
     "name": "Belarusian",
     "code": "be",
-    "dateFormat": "D.M.YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD.MM.YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "bem_ZM": {
     "name": "Bemba (Zambia)",
     "code": "bem-ZM",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "bem": {
     "name": "Bemba",
     "code": "bem",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "bez_TZ": {
     "name": "Bena (Tanzania)",
     "code": "bez-TZ",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "bez": {
     "name": "Bena",
     "code": "bez",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "bn_BD": {
     "name": "Bengali (Bangladesh)",
     "code": "bn-BD",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "bn_IN": {
     "name": "Bengali (India)",
     "code": "bn-IN",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "bn": {
     "name": "Bengali",
     "code": "bn",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "bs_BA": {
     "name": "Bosnian (Bosnia and Herzegovina)",
     "code": "bs-BA",
-    "dateFormat": "D.M.YYYY.",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD.MM.YYYY.",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "bs": {
     "name": "Bosnian",
     "code": "bs",
-    "dateFormat": "D.M.YYYY.",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD.MM.YYYY.",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "bg_BG": {
     "name": "Bulgarian (Bulgaria)",
     "code": "bg-BG",
-    "dateFormat": "D.MM.YYYY г.",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD.MM.YYYY г.",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "bg": {
     "name": "Bulgarian",
     "code": "bg",
-    "dateFormat": "D.MM.YYYY г.",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD.MM.YYYY г.",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "my_MM": {
     "name": "Burmese (Myanmar [Burma])",
     "code": "my-MM",
+    "era": false,
     "dateFormat": "DD-MM-YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "my": {
     "name": "Burmese",
     "code": "my",
+    "era": false,
     "dateFormat": "DD-MM-YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "yue_Hant_HK": {
     "name": "Cantonese (Traditional, Hong Kong SAR China)",
     "code": "yue-Hant-HK",
-    "dateFormat": "YYYY/M/D",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "YYYY/MM/DD",
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "ca_ES": {
     "name": "Catalan (Spain)",
     "code": "ca-ES",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "ca": {
     "name": "Catalan",
     "code": "ca",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "tzm_Latn": {
     "name": "Central Morocco Tamazight (Latin)",
     "code": "tzm-Latn",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "tzm_Latn_MA": {
     "name": "Central Morocco Tamazight (Latin, Morocco)",
     "code": "tzm-Latn-MA",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "tzm": {
     "name": "Central Morocco Tamazight",
     "code": "tzm",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "chr_US": {
     "name": "Cherokee (United States)",
     "code": "chr-US",
-    "dateFormat": "M/D/YYYY",
-    "splitedPositions": { "month": 0, "day": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "MM/DD/YYYY",
+    "dateSplitedPositions": { "month": 0, "day": 1, "year": 2 },
+    "dateRegex": {
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "year": "([0-9]{4})"
+    }
   },
   "chr": {
     "name": "Cherokee",
     "code": "chr",
-    "dateFormat": "M/D/YYYY",
-    "splitedPositions": { "month": 0, "day": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "MM/DD/YYYY",
+    "dateSplitedPositions": { "month": 0, "day": 1, "year": 2 },
+    "dateRegex": {
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "year": "([0-9]{4})"
+    }
   },
   "cgg_UG": {
     "name": "Chiga (Uganda)",
     "code": "cgg-UG",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "cgg": {
     "name": "Chiga",
     "code": "cgg",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "zh_Hans": {
     "name": "Chinese (Simplified Han)",
     "code": "zh-Hans",
-    "dateFormat": "YYYY/M/D",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "YYYY/MM/DD",
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "zh_Hans_CN": {
     "name": "Chinese (Simplified Han, China)",
     "code": "zh-Hans-CN",
-    "dateFormat": "YYYY/M/D",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "YYYY/MM/DD",
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "zh_Hans_HK": {
     "name": "Chinese (Simplified Han, Hong Kong SAR China)",
     "code": "zh-Hans-HK",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "zh_Hans_MO": {
     "name": "Chinese (Simplified Han, Macau SAR China)",
     "code": "zh-Hans-MO",
-    "dateFormat": "YYYY年M月D日",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "YYYY年MM月DD日",
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "zh_Hans_SG": {
     "name": "Chinese (Simplified Han, Singapore)",
     "code": "zh-Hans-SG",
-    "dateFormat": "YYYY年M月D日",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "YYYY年MM月DD日",
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "zh_Hant": {
     "name": "Chinese (Traditional Han)",
     "code": "zh-Hant",
-    "dateFormat": "YYYY/M/D",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "YYYY/MM/DD",
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "zh_Hant_HK": {
     "name": "Chinese (Traditional Han, Hong Kong SAR China)",
     "code": "zh-Hant-HK",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "zh_Hant_MO": {
     "name": "Chinese (Traditional Han, Macau SAR China)",
     "code": "zh-Hant-MO",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "zh_Hant_TW": {
     "name": "Chinese (Traditional Han, Taiwan)",
     "code": "zh-Hant-TW",
-    "dateFormat": "YYYY/M/D",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "YYYY/MM/DD",
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "zh": {
     "name": "Chinese",
     "code": "zh",
-    "dateFormat": "YYYY/M/D",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "YYYY/MM/DD",
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "kw_GB": {
     "name": "Cornish (United Kingdom)",
     "code": "kw-GB",
-    "dateFormat": "YYYY-M-D",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "YYYY-MM-DD",
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "kw": {
     "name": "Cornish",
     "code": "kw",
-    "dateFormat": "YYYY-M-D",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "YYYY-MM-DD",
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "hr_HR": {
     "name": "Croatian (Croatia)",
     "code": "hr-HR",
+    "era": false,
     "dateFormat": "DD. MM. YYYY.",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "hr": {
     "name": "Croatian",
     "code": "hr",
+    "era": false,
     "dateFormat": "DD. MM. YYYY.",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "cs_CZ": {
     "name": "Czech (Czech Republic)",
     "code": "cs-CZ",
-    "dateFormat": "D. M. YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD. MM. YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "cs": {
     "name": "Czech",
     "code": "cs",
-    "dateFormat": "D. M. YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD. MM. YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "da_DK": {
     "name": "Danish (Denmark)",
     "code": "da-DK",
-    "dateFormat": "D.M.YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD.MM.YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "da": {
     "name": "Danish",
     "code": "da",
-    "dateFormat": "D.M.YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD.MM.YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "nl_BE": {
     "name": "Dutch (Belgium)",
     "code": "nl-BE",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "nl_NL": {
     "name": "Dutch (Netherlands)",
     "code": "nl-NL",
-    "dateFormat": "D-M-YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD-MM-YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "nl": {
     "name": "Dutch",
     "code": "nl",
-    "dateFormat": "D-M-YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD-MM-YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "ebu_KE": {
     "name": "Embu (Kenya)",
     "code": "ebu-KE",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "ebu": {
     "name": "Embu",
     "code": "ebu",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "en_AS": {
     "name": "English (American Samoa)",
     "code": "en-AS",
-    "dateFormat": "M/D/YYYY",
-    "splitedPositions": { "month": 0, "day": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "MM/DD/YYYY",
+    "dateSplitedPositions": { "month": 0, "day": 1, "year": 2 },
+    "dateRegex": {
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "year": "([0-9]{4})"
+    }
   },
   "en_AU": {
     "name": "English (Australia)",
     "code": "en-AU",
+    "era": false,
     "dateFormat": "DD/MM/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "en_BE": {
     "name": "English (Belgium)",
     "code": "en-BE",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "en_BZ": {
     "name": "English (Belize)",
     "code": "en-BZ",
+    "era": false,
     "dateFormat": "DD/MM/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "en_BW": {
     "name": "English (Botswana)",
     "code": "en-BW",
+    "era": false,
     "dateFormat": "DD/MM/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "en_CA": {
     "name": "English (Canada)",
     "code": "en-CA",
+    "era": false,
     "dateFormat": "YYYY-MM-DD",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "en_GU": {
     "name": "English (Guam)",
     "code": "en-GU",
-    "dateFormat": "M/D/YYYY",
-    "splitedPositions": { "month": 0, "day": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "MM/DD/YYYY",
+    "dateSplitedPositions": { "month": 0, "day": 1, "year": 2 },
+    "dateRegex": {
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "year": "([0-9]{4})"
+    }
   },
   "en_HK": {
     "name": "English (Hong Kong SAR China)",
     "code": "en-HK",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "en_IN": {
     "name": "English (India)",
     "code": "en-IN",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "en_IE": {
     "name": "English (Ireland)",
     "code": "en-IE",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "en_IL": {
     "name": "English (Israel)",
     "code": "en-IL",
+    "era": false,
     "dateFormat": "DD/MM/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "en_JM": {
     "name": "English (Jamaica)",
     "code": "en-JM",
+    "era": false,
     "dateFormat": "DD/MM/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "en_MT": {
     "name": "English (Malta)",
     "code": "en-MT",
+    "era": false,
     "dateFormat": "DD/MM/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "en_MH": {
     "name": "English (Marshall Islands)",
     "code": "en-MH",
-    "dateFormat": "M/D/YYYY",
-    "splitedPositions": { "month": 0, "day": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "MM/DD/YYYY",
+    "dateSplitedPositions": { "month": 0, "day": 1, "year": 2 },
+    "dateRegex": {
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "year": "([0-9]{4})"
+    }
   },
   "en_MU": {
     "name": "English (Mauritius)",
     "code": "en-MU",
+    "era": false,
     "dateFormat": "DD/MM/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "en_NA": {
     "name": "English (Namibia)",
     "code": "en-NA",
+    "era": false,
     "dateFormat": "DD/MM/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "en_NZ": {
     "name": "English (New Zealand)",
     "code": "en-NZ",
-    "dateFormat": "D/MM/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "en_MP": {
     "name": "English (Northern Mariana Islands)",
     "code": "en-MP",
-    "dateFormat": "M/D/YYYY",
-    "splitedPositions": { "month": 0, "day": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "MM/DD/YYYY",
+    "dateSplitedPositions": { "month": 0, "day": 1, "year": 2 },
+    "dateRegex": {
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "year": "([0-9]{4})"
+    }
   },
   "en_PK": {
     "name": "English (Pakistan)",
     "code": "en-PK",
+    "era": false,
     "dateFormat": "DD/MM/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "en_PH": {
     "name": "English (Philippines)",
     "code": "en-PH",
+    "era": false,
     "dateFormat": "DD/MM/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "en_SG": {
     "name": "English (Singapore)",
     "code": "en-SG",
+    "era": false,
     "dateFormat": "DD/MM/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "en_ZA": {
     "name": "English (South Africa)",
     "code": "en-ZA",
+    "era": false,
     "dateFormat": "YYYY/MM/DD",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "en_TT": {
     "name": "English (Trinidad and Tobago)",
     "code": "en-TT",
+    "era": false,
     "dateFormat": "DD/MM/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "en_UM": {
     "name": "English (U.S. Minor Outlying Islands)",
     "code": "en-UM",
-    "dateFormat": "M/D/YYYY",
-    "splitedPositions": { "month": 0, "day": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "MM/DD/YYYY",
+    "dateSplitedPositions": { "month": 0, "day": 1, "year": 2 },
+    "dateRegex": {
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "year": "([0-9]{4})"
+    }
   },
   "en_VI": {
     "name": "English (U.S. Virgin Islands)",
     "code": "en-VI",
-    "dateFormat": "M/D/YYYY",
-    "splitedPositions": { "month": 0, "day": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "MM/DD/YYYY",
+    "dateSplitedPositions": { "month": 0, "day": 1, "year": 2 },
+    "dateRegex": {
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "year": "([0-9]{4})"
+    }
   },
   "en_GB": {
     "name": "English (United Kingdom)",
     "code": "en-GB",
+    "era": false,
     "dateFormat": "DD/MM/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "en_US": {
     "name": "English (United States)",
     "code": "en-US",
-    "dateFormat": "M/D/YYYY",
-    "splitedPositions": { "month": 0, "day": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "MM/DD/YYYY",
+    "dateSplitedPositions": { "month": 0, "day": 1, "year": 2 },
+    "dateRegex": {
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "year": "([0-9]{4})"
+    }
   },
   "en_ZW": {
     "name": "English (Zimbabwe)",
     "code": "en-ZW",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "en": {
     "name": "English",
     "code": "en",
-    "dateFormat": "M/D/YYYY",
-    "splitedPositions": { "month": 0, "day": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "MM/DD/YYYY",
+    "dateSplitedPositions": { "month": 0, "day": 1, "year": 2 },
+    "dateRegex": {
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "year": "([0-9]{4})"
+    }
   },
   "eo": {
     "name": "Esperanto",
     "code": "eo",
-    "dateFormat": "YYYY-M-D",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "YYYY-MM-DD",
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "et_EE": {
     "name": "Estonian (Estonia)",
     "code": "et-EE",
-    "dateFormat": "D.M.YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD.MM.YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "et": {
     "name": "Estonian",
     "code": "et",
-    "dateFormat": "D.M.YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD.MM.YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "ee_GH": {
     "name": "Ewe (Ghana)",
     "code": "ee-GH",
-    "dateFormat": "M/D/YYYY",
-    "splitedPositions": { "month": 0, "day": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "MM/DD/YYYY",
+    "dateSplitedPositions": { "month": 0, "day": 1, "year": 2 },
+    "dateRegex": {
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "year": "([0-9]{4})"
+    }
   },
   "ee_TG": {
     "name": "Ewe (Togo)",
     "code": "ee-TG",
-    "dateFormat": "M/D/YYYY",
-    "splitedPositions": { "month": 0, "day": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "MM/DD/YYYY",
+    "dateSplitedPositions": { "month": 0, "day": 1, "year": 2 },
+    "dateRegex": {
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "year": "([0-9]{4})"
+    }
   },
   "ee": {
     "name": "Ewe",
     "code": "ee",
-    "dateFormat": "M/D/YYYY",
-    "splitedPositions": { "month": 0, "day": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "MM/DD/YYYY",
+    "dateSplitedPositions": { "month": 0, "day": 1, "year": 2 },
+    "dateRegex": {
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "year": "([0-9]{4})"
+    }
   },
   "fo_FO": {
     "name": "Faroese (Faroe Islands)",
     "code": "fo-FO",
+    "era": false,
     "dateFormat": "DD.MM.YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "fo": {
     "name": "Faroese",
     "code": "fo",
+    "era": false,
     "dateFormat": "DD.MM.YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "fil_PH": {
     "name": "Filipino (Philippines)",
     "code": "fil-PH",
-    "dateFormat": "M/D/YYYY",
-    "splitedPositions": { "month": 0, "day": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "MM/DD/YYYY",
+    "dateSplitedPositions": { "month": 0, "day": 1, "year": 2 },
+    "dateRegex": {
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "year": "([0-9]{4})"
+    }
   },
   "fil": {
     "name": "Filipino",
     "code": "fil",
-    "dateFormat": "M/D/YYYY",
-    "splitedPositions": { "month": 0, "day": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "MM/DD/YYYY",
+    "dateSplitedPositions": { "month": 0, "day": 1, "year": 2 },
+    "dateRegex": {
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "year": "([0-9]{4})"
+    }
   },
   "fi_FI": {
     "name": "Finnish (Finland)",
     "code": "fi-FI",
-    "dateFormat": "D.M.YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD.MM.YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "fi": {
     "name": "Finnish",
     "code": "fi",
-    "dateFormat": "D.M.YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD.MM.YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "fr_BE": {
     "name": "French (Belgium)",
     "code": "fr-BE",
+    "era": false,
     "dateFormat": "DD/MM/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "fr_BJ": {
     "name": "French (Benin)",
     "code": "fr-BJ",
+    "era": false,
     "dateFormat": "DD/MM/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "fr_BF": {
     "name": "French (Burkina Faso)",
     "code": "fr-BF",
+    "era": false,
     "dateFormat": "DD/MM/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "fr_BI": {
     "name": "French (Burundi)",
     "code": "fr-BI",
+    "era": false,
     "dateFormat": "DD/MM/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "fr_CM": {
     "name": "French (Cameroon)",
     "code": "fr-CM",
+    "era": false,
     "dateFormat": "DD/MM/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "fr_CA": {
     "name": "French (Canada)",
     "code": "fr-CA",
+    "era": false,
     "dateFormat": "YYYY-MM-DD",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "fr_CF": {
     "name": "French (Central African Republic)",
     "code": "fr-CF",
+    "era": false,
     "dateFormat": "DD/MM/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "fr_TD": {
     "name": "French (Chad)",
     "code": "fr-TD",
+    "era": false,
     "dateFormat": "DD/MM/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "fr_KM": {
     "name": "French (Comoros)",
     "code": "fr-KM",
+    "era": false,
     "dateFormat": "DD/MM/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "fr_CG": {
     "name": "French (Congo _ Brazzaville)",
     "code": "fr-CG",
+    "era": false,
     "dateFormat": "DD/MM/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "fr_CD": {
     "name": "French (Congo _ Kinshasa)",
     "code": "fr-CD",
+    "era": false,
     "dateFormat": "DD/MM/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "fr_CI": {
     "name": "French (Côte d’Ivoire)",
     "code": "fr-CI",
+    "era": false,
     "dateFormat": "DD/MM/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "fr_DJ": {
     "name": "French (Djibouti)",
     "code": "fr-DJ",
+    "era": false,
     "dateFormat": "DD/MM/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "fr_GQ": {
     "name": "French (Equatorial Guinea)",
     "code": "fr-GQ",
+    "era": false,
     "dateFormat": "DD/MM/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "fr_FR": {
     "name": "French (France)",
     "code": "fr-FR",
+    "era": false,
     "dateFormat": "DD/MM/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "fr_GA": {
     "name": "French (Gabon)",
     "code": "fr-GA",
+    "era": false,
     "dateFormat": "DD/MM/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "fr_GP": {
     "name": "French (Guadeloupe)",
     "code": "fr-GP",
+    "era": false,
     "dateFormat": "DD/MM/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "fr_GN": {
     "name": "French (Guinea)",
     "code": "fr-GN",
+    "era": false,
     "dateFormat": "DD/MM/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "fr_LU": {
     "name": "French (Luxembourg)",
     "code": "fr-LU",
+    "era": false,
     "dateFormat": "DD/MM/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "fr_MG": {
     "name": "French (Madagascar)",
     "code": "fr-MG",
+    "era": false,
     "dateFormat": "DD/MM/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "fr_ML": {
     "name": "French (Mali)",
     "code": "fr-ML",
+    "era": false,
     "dateFormat": "DD/MM/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "fr_MQ": {
     "name": "French (Martinique)",
     "code": "fr-MQ",
+    "era": false,
     "dateFormat": "DD/MM/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "fr_MC": {
     "name": "French (Monaco)",
     "code": "fr-MC",
+    "era": false,
     "dateFormat": "DD/MM/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "fr_NE": {
     "name": "French (Niger)",
     "code": "fr-NE",
+    "era": false,
     "dateFormat": "DD/MM/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "fr_RW": {
     "name": "French (Rwanda)",
     "code": "fr-RW",
+    "era": false,
     "dateFormat": "DD/MM/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "fr_RE": {
     "name": "French (Réunion)",
     "code": "fr-RE",
+    "era": false,
     "dateFormat": "DD/MM/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "fr_BL": {
     "name": "French (Saint Barthélemy)",
     "code": "fr-BL",
+    "era": false,
     "dateFormat": "DD/MM/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "fr_MF": {
     "name": "French (Saint Martin)",
     "code": "fr-MF",
+    "era": false,
     "dateFormat": "DD/MM/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "fr_SN": {
     "name": "French (Senegal)",
     "code": "fr-SN",
+    "era": false,
     "dateFormat": "DD/MM/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "fr_CH": {
     "name": "French (Switzerland)",
     "code": "fr-CH",
+    "era": false,
     "dateFormat": "DD.MM.YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "fr_TG": {
     "name": "French (Togo)",
     "code": "fr-TG",
+    "era": false,
     "dateFormat": "DD/MM/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "fr": {
     "name": "French",
     "code": "fr",
+    "era": false,
     "dateFormat": "DD/MM/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "ff_SN": {
     "name": "Fulah (Senegal)",
     "code": "ff-SN",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "ff": {
     "name": "Fulah",
     "code": "ff",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "gl_ES": {
     "name": "Galician (Spain)",
     "code": "gl-ES",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "gl": {
     "name": "Galician",
     "code": "gl",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "lg_UG": {
     "name": "Ganda (Uganda)",
     "code": "lg-UG",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "lg": {
     "name": "Ganda",
     "code": "lg",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "ka_GE": {
     "name": "Georgian (Georgia)",
     "code": "ka-GE",
-    "dateFormat": "D.M.YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD.MM.YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "ka": {
     "name": "Georgian",
     "code": "ka",
-    "dateFormat": "D.M.YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD.MM.YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "de_AT": {
     "name": "German (Austria)",
     "code": "de-AT",
-    "dateFormat": "D.M.YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD.MM.YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "de_BE": {
     "name": "German (Belgium)",
     "code": "de-BE",
-    "dateFormat": "D.M.YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD.MM.YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "de_DE": {
     "name": "German (Germany)",
     "code": "de-DE",
-    "dateFormat": "D.M.YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD.MM.YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "de_LI": {
     "name": "German (Liechtenstein)",
     "code": "de-LI",
-    "dateFormat": "D.M.YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD.MM.YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "de_LU": {
     "name": "German (Luxembourg)",
     "code": "de-LU",
-    "dateFormat": "D.M.YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD.MM.YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "de_CH": {
     "name": "German (Switzerland)",
     "code": "de-CH",
-    "dateFormat": "D.M.YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD.MM.YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "de": {
     "name": "German",
     "code": "de",
-    "dateFormat": "D.M.YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD.MM.YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "el_CY": {
     "name": "Greek (Cyprus)",
     "code": "el-CY",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "el_GR": {
     "name": "Greek (Greece)",
     "code": "el-GR",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "el": {
     "name": "Greek",
     "code": "el",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "gu_IN": {
     "name": "Gujarati (India)",
     "code": "gu-IN",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "gu": {
     "name": "Gujarati",
     "code": "gu",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "guz_KE": {
     "name": "Gusii (Kenya)",
     "code": "guz-KE",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "guz": {
     "name": "Gusii",
     "code": "guz",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "ha_Latn": {
     "name": "Hausa (Latin)",
     "code": "ha-Latn",
+    "era": false,
     "dateFormat": "YYYY-MM-DD",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "ha_Latn_GH": {
     "name": "Hausa (Latin, Ghana)",
     "code": "ha-Latn-GH",
+    "era": false,
     "dateFormat": "YYYY-MM-DD",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "ha_Latn_NE": {
     "name": "Hausa (Latin, Niger)",
     "code": "ha-Latn-NE",
+    "era": false,
     "dateFormat": "YYYY-MM-DD",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "ha_Latn_NG": {
     "name": "Hausa (Latin, Nigeria)",
     "code": "ha-Latn-NG",
+    "era": false,
     "dateFormat": "YYYY-MM-DD",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "ha": {
     "name": "Hausa",
     "code": "ha",
+    "era": false,
     "dateFormat": "YYYY-MM-DD",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "haw_US": {
     "name": "Hawaiian (United States)",
     "code": "haw-US",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "haw": {
     "name": "Hawaiian",
     "code": "haw",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "he_IL": {
     "name": "Hebrew (Israel)",
     "code": "he-IL",
-    "dateFormat": "D.M.YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD.MM.YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "he": {
     "name": "Hebrew",
     "code": "he",
-    "dateFormat": "D.M.YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD.MM.YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "hi_IN": {
     "name": "Hindi (India)",
     "code": "hi-IN",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "hi": {
     "name": "Hindi",
     "code": "hi",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "hu_HU": {
     "name": "Hungarian (Hungary)",
     "code": "hu-HU",
+    "era": false,
     "dateFormat": "YYYY. MM. DD.",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "hu": {
     "name": "Hungarian",
     "code": "hu",
+    "era": false,
     "dateFormat": "YYYY. MM. DD.",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "is_IS": {
     "name": "Icelandic (Iceland)",
     "code": "is-IS",
-    "dateFormat": "D.M.YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD.MM.YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "is": {
     "name": "Icelandic",
     "code": "is",
-    "dateFormat": "D.M.YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD.MM.YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "ig_NG": {
     "name": "Igbo (Nigeria)",
     "code": "ig-NG",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "ig": {
     "name": "Igbo",
     "code": "ig",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "id_ID": {
     "name": "Indonesian (Indonesia)",
     "code": "id-ID",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "id": {
     "name": "Indonesian",
     "code": "id",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "ga_IE": {
     "name": "Irish (Ireland)",
     "code": "ga-IE",
+    "era": false,
     "dateFormat": "DD/MM/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "ga": {
     "name": "Irish",
     "code": "ga",
+    "era": false,
     "dateFormat": "DD/MM/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "it_IT": {
     "name": "Italian (Italy)",
     "code": "it-IT",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "it_CH": {
     "name": "Italian (Switzerland)",
     "code": "it-CH",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "it": {
     "name": "Italian",
     "code": "it",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "ja_JP": {
     "name": "Japanese (Japan)",
     "code": "ja-JP",
-    "dateFormat": "YYYY/M/D",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "YYYY/MM/DD",
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "ja": {
     "name": "Japanese",
     "code": "ja",
-    "dateFormat": "YYYY/M/D",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "YYYY/MM/DD",
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "kea_CV": {
     "name": "Kabuverdianu (Cape Verde)",
     "code": "kea-CV",
+    "era": false,
     "dateFormat": "DD/MM/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "kea": {
     "name": "Kabuverdianu",
     "code": "kea",
+    "era": false,
     "dateFormat": "DD/MM/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "kab_DZ": {
     "name": "Kabyle (Algeria)",
     "code": "kab-DZ",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "kab": {
     "name": "Kabyle",
     "code": "kab",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "kl_GL": {
     "name": "Kalaallisut (Greenland)",
     "code": "kl-GL",
-    "dateFormat": "YYYY-M-D",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "YYYY-MM-DD",
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "kl": {
     "name": "Kalaallisut",
     "code": "kl",
-    "dateFormat": "YYYY-M-D",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "YYYY-MM-DD",
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "kln_KE": {
     "name": "Kalenjin (Kenya)",
     "code": "kln-KE",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "kln": {
     "name": "Kalenjin",
     "code": "kln",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "kam_KE": {
     "name": "Kamba (Kenya)",
     "code": "kam-KE",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "kam": {
     "name": "Kamba",
     "code": "kam",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "kn_IN": {
     "name": "Kannada (India)",
     "code": "kn-IN",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "kn": {
     "name": "Kannada",
     "code": "kn",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "kk_Cyrl": {
     "name": "Kazakh (Cyrillic)",
     "code": "kk-Cyrl",
+    "era": false,
     "dateFormat": "DD.MM.YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "kk_Cyrl_KZ": {
     "name": "Kazakh (Cyrillic, Kazakhstan)",
     "code": "kk-Cyrl-KZ",
+    "era": false,
     "dateFormat": "DD.MM.YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "kk": {
     "name": "Kazakh",
     "code": "kk",
+    "era": false,
     "dateFormat": "DD.MM.YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "km_KH": {
     "name": "Khmer (Cambodia)",
     "code": "km-KH",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "km": {
     "name": "Khmer",
     "code": "km",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "ki_KE": {
     "name": "Kikuyu (Kenya)",
     "code": "ki-KE",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "ki": {
     "name": "Kikuyu",
     "code": "ki",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "rw_RW": {
     "name": "Kinyarwanda (Rwanda)",
     "code": "rw-RW",
+    "era": false,
     "dateFormat": "YYYY-MM-DD",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "rw": {
     "name": "Kinyarwanda",
     "code": "rw",
+    "era": false,
     "dateFormat": "YYYY-MM-DD",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "kok_IN": {
     "name": "Konkani (India)",
     "code": "kok-IN",
+    "era": false,
     "dateFormat": "YYYY-MM-DD",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "kok": {
     "name": "Konkani",
     "code": "kok",
+    "era": false,
     "dateFormat": "YYYY-MM-DD",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "ko_KR": {
     "name": "Korean (South Korea)",
     "code": "ko-KR",
-    "dateFormat": "YYYY. M. D.",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "YYYY. MM. DD.",
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "ko": {
     "name": "Korean",
     "code": "ko",
-    "dateFormat": "YYYY. M. D.",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "YYYY. MM. DD.",
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "khq_ML": {
     "name": "Koyra Chiini (Mali)",
     "code": "khq-ML",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "khq": {
     "name": "Koyra Chiini",
     "code": "khq",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "ses_ML": {
     "name": "Koyraboro Senni (Mali)",
     "code": "ses-ML",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "ses": {
     "name": "Koyraboro Senni",
     "code": "ses",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "lag_TZ": {
     "name": "Langi (Tanzania)",
     "code": "lag-TZ",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "lag": {
     "name": "Langi",
     "code": "lag",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "lv_LV": {
     "name": "Latvian (Latvia)",
     "code": "lv-LV",
-    "dateFormat": "YYYY.MM.D.",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "YYYY.MM.DD.",
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "lv": {
     "name": "Latvian",
     "code": "lv",
-    "dateFormat": "YYYY.MM.D.",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "YYYY.MM.DD.",
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "lt_LT": {
     "name": "Lithuanian (Lithuania)",
     "code": "lt-LT",
+    "era": false,
     "dateFormat": "YYYY-MM-DD",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "lt": {
     "name": "Lithuanian",
     "code": "lt",
+    "era": false,
     "dateFormat": "YYYY-MM-DD",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "luo_KE": {
     "name": "Luo (Kenya)",
     "code": "luo-KE",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "luo": {
     "name": "Luo",
     "code": "luo",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "luy_KE": {
     "name": "Luyia (Kenya)",
     "code": "luy-KE",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "luy": {
     "name": "Luyia",
     "code": "luy",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "mk_MK": {
     "name": "Macedonian (Macedonia)",
     "code": "mk-MK",
-    "dateFormat": "D.M.YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD.MM.YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "mk": {
     "name": "Macedonian",
     "code": "mk",
-    "dateFormat": "D.M.YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD.MM.YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "jmc_TZ": {
     "name": "Machame (Tanzania)",
     "code": "jmc-TZ",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "jmc": {
     "name": "Machame",
     "code": "jmc",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "kde_TZ": {
     "name": "Makonde (Tanzania)",
     "code": "kde-TZ",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "kde": {
     "name": "Makonde",
     "code": "kde",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "mg_MG": {
     "name": "Malagasy (Madagascar)",
     "code": "mg-MG",
+    "era": false,
     "dateFormat": "YYYY-MM-DD",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "mg": {
     "name": "Malagasy",
     "code": "mg",
+    "era": false,
     "dateFormat": "YYYY-MM-DD",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "ms_BN": {
     "name": "Malay (Brunei)",
     "code": "ms-BN",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "ms_MY": {
     "name": "Malay (Malaysia)",
     "code": "ms-MY",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "ms": {
     "name": "Malay",
     "code": "ms",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "ml_IN": {
     "name": "Malayalam (India)",
     "code": "ml-IN",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "ml": {
     "name": "Malayalam",
     "code": "ml",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "mt_MT": {
     "name": "Maltese (Malta)",
     "code": "mt-MT",
-    "dateFormat": "M/D/YYYY",
-    "splitedPositions": { "month": 0, "day": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "MM/DD/YYYY",
+    "dateSplitedPositions": { "month": 0, "day": 1, "year": 2 },
+    "dateRegex": {
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "year": "([0-9]{4})"
+    }
   },
   "mt": {
     "name": "Maltese",
     "code": "mt",
-    "dateFormat": "M/D/YYYY",
-    "splitedPositions": { "month": 0, "day": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "MM/DD/YYYY",
+    "dateSplitedPositions": { "month": 0, "day": 1, "year": 2 },
+    "dateRegex": {
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "year": "([0-9]{4})"
+    }
   },
   "gv_GB": {
     "name": "Manx (United Kingdom)",
     "code": "gv-GB",
-    "dateFormat": "YYYY-M-D",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "YYYY-MM-DD",
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "gv": {
     "name": "Manx",
     "code": "gv",
-    "dateFormat": "YYYY-M-D",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "YYYY-MM-DD",
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "mr_IN": {
     "name": "Marathi (India)",
     "code": "mr-IN",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "mr": {
     "name": "Marathi",
     "code": "mr",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "mas_KE": {
     "name": "Masai (Kenya)",
     "code": "mas-KE",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "mas_TZ": {
     "name": "Masai (Tanzania)",
     "code": "mas-TZ",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "mas": {
     "name": "Masai",
     "code": "mas",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "mer_KE": {
     "name": "Meru (Kenya)",
     "code": "mer-KE",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "mer": {
     "name": "Meru",
     "code": "mer",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "mfe_MU": {
     "name": "Morisyen (Mauritius)",
     "code": "mfe-MU",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "mfe": {
     "name": "Morisyen",
     "code": "mfe",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "naq_NA": {
     "name": "Nama (Namibia)",
     "code": "naq-NA",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "naq": {
     "name": "Nama",
     "code": "naq",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "ne_IN": {
     "name": "Nepali (India)",
     "code": "ne-IN",
+    "era": false,
     "dateFormat": "YYYY-MM-DD",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "ne_NP": {
     "name": "Nepali (Nepal)",
     "code": "ne-NP",
+    "era": false,
     "dateFormat": "YYYY-MM-DD",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "ne": {
     "name": "Nepali",
     "code": "ne",
+    "era": false,
     "dateFormat": "YYYY-MM-DD",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "nd_ZW": {
     "name": "North Ndebele (Zimbabwe)",
     "code": "nd-ZW",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "nd": {
     "name": "North Ndebele",
     "code": "nd",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "nb_NO": {
     "name": "Norwegian Bokmål (Norway)",
     "code": "nb-NO",
-    "dateFormat": "D.M.YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD.MM.YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "nb": {
     "name": "Norwegian Bokmål",
     "code": "nb",
-    "dateFormat": "D.M.YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD.MM.YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "nn_NO": {
     "name": "Norwegian Nynorsk (Norway)",
     "code": "nn-NO",
-    "dateFormat": "D.M.YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD.MM.YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "nn": {
     "name": "Norwegian Nynorsk",
     "code": "nn",
-    "dateFormat": "D.M.YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD.MM.YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "nyn_UG": {
     "name": "Nyankole (Uganda)",
     "code": "nyn-UG",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "nyn": {
     "name": "Nyankole",
     "code": "nyn",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "or_IN": {
     "name": "Oriya (India)",
     "code": "or-IN",
-    "dateFormat": "M/D/YYYY",
-    "splitedPositions": { "month": 0, "day": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "MM/DD/YYYY",
+    "dateSplitedPositions": { "month": 0, "day": 1, "year": 2 },
+    "dateRegex": {
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "year": "([0-9]{4})"
+    }
   },
   "or": {
     "name": "Oriya",
     "code": "or",
-    "dateFormat": "M/D/YYYY",
-    "splitedPositions": { "month": 0, "day": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "MM/DD/YYYY",
+    "dateSplitedPositions": { "month": 0, "day": 1, "year": 2 },
+    "dateRegex": {
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "year": "([0-9]{4})"
+    }
   },
   "om_ET": {
     "name": "Oromo (Ethiopia)",
     "code": "om-ET",
+    "era": false,
     "dateFormat": "YYYY-MM-DD",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "om_KE": {
     "name": "Oromo (Kenya)",
     "code": "om-KE",
+    "era": false,
     "dateFormat": "YYYY-MM-DD",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "om": {
     "name": "Oromo",
     "code": "om",
+    "era": false,
     "dateFormat": "YYYY-MM-DD",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "ps_AF": {
     "name": "Pashto (Afghanistan)",
     "code": "ps-AF",
+    "era": true,
     "dateFormat": " YYYY-MM-DD",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": true
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "ps": {
     "name": "Pashto",
     "code": "ps",
+    "era": true,
     "dateFormat": " YYYY-MM-DD",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": true
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "fa_AF": {
     "name": "Persian (Afghanistan)",
     "code": "fa-AF",
-    "dateFormat": "YYYY/M/DD",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "YYYY/MM/DD",
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "fa_IR": {
     "name": "Persian (Iran)",
     "code": "fa-IR",
-    "dateFormat": "YYYY/M/DD",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "YYYY/MM/DD",
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "fa": {
     "name": "Persian",
     "code": "fa",
-    "dateFormat": "YYYY/M/DD",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "YYYY/MM/DD",
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "pl_PL": {
     "name": "Polish (Poland)",
     "code": "pl-PL",
-    "dateFormat": "D.MM.YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD.MM.YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "pl": {
     "name": "Polish",
     "code": "pl",
-    "dateFormat": "D.MM.YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD.MM.YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "pt_BR": {
     "name": "Portuguese (Brazil)",
     "code": "pt-BR",
+    "era": false,
     "dateFormat": "DD/MM/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "pt_GW": {
     "name": "Portuguese (Guinea_Bissau)",
     "code": "pt-GW",
+    "era": false,
     "dateFormat": "DD/MM/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "pt_MZ": {
     "name": "Portuguese (Mozambique)",
     "code": "pt-MZ",
+    "era": false,
     "dateFormat": "DD/MM/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "pt_PT": {
     "name": "Portuguese (Portugal)",
     "code": "pt-PT",
+    "era": false,
     "dateFormat": "DD/MM/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "pt": {
     "name": "Portuguese",
     "code": "pt",
+    "era": false,
     "dateFormat": "DD/MM/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "pa_Arab": {
     "name": "Punjabi (Arabic)",
     "code": "pa-Arab",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "pa_Arab_PK": {
     "name": "Punjabi (Arabic, Pakistan)",
     "code": "pa-Arab-PK",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "pa_Guru": {
     "name": "Punjabi (Gurmukhi)",
     "code": "pa-Guru",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "pa_Guru_IN": {
     "name": "Punjabi (Gurmukhi, India)",
     "code": "pa-Guru-IN",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "pa": {
     "name": "Punjabi",
     "code": "pa",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "ro_MD": {
     "name": "Romanian (Moldova)",
     "code": "ro-MD",
+    "era": false,
     "dateFormat": "DD.MM.YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "ro_RO": {
     "name": "Romanian (Romania)",
     "code": "ro-RO",
+    "era": false,
     "dateFormat": "DD.MM.YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "ro": {
     "name": "Romanian",
     "code": "ro",
+    "era": false,
     "dateFormat": "DD.MM.YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "rm_CH": {
     "name": "Romansh (Switzerland)",
     "code": "rm-CH",
+    "era": false,
     "dateFormat": "YYYY-MM-DD",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "rm": {
     "name": "Romansh",
     "code": "rm",
+    "era": false,
     "dateFormat": "YYYY-MM-DD",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "rof_TZ": {
     "name": "Rombo (Tanzania)",
     "code": "rof-TZ",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "rof": {
     "name": "Rombo",
     "code": "rof",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "ru_MD": {
     "name": "Russian (Moldova)",
     "code": "ru-MD",
+    "era": false,
     "dateFormat": "DD.MM.YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "ru_RU": {
     "name": "Russian (Russia)",
     "code": "ru-RU",
+    "era": false,
     "dateFormat": "DD.MM.YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "ru_UA": {
     "name": "Russian (Ukraine)",
     "code": "ru-UA",
+    "era": false,
     "dateFormat": "DD.MM.YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "ru": {
     "name": "Russian",
     "code": "ru",
+    "era": false,
     "dateFormat": "DD.MM.YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "rwk_TZ": {
     "name": "Rwa (Tanzania)",
     "code": "rwk-TZ",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "rwk": {
     "name": "Rwa",
     "code": "rwk",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "saq_KE": {
     "name": "Samburu (Kenya)",
     "code": "saq-KE",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "saq": {
     "name": "Samburu",
     "code": "saq",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "sg_CF": {
     "name": "Sango (Central African Republic)",
     "code": "sg-CF",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "sg": {
     "name": "Sango",
     "code": "sg",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "seh_MZ": {
     "name": "Sena (Mozambique)",
     "code": "seh-MZ",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "seh": {
     "name": "Sena",
     "code": "seh",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "sr_Cyrl": {
     "name": "Serbian (Cyrillic)",
     "code": "sr-Cyrl",
-    "dateFormat": "D.M.YYYY.",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD.MM.YYYY.",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "sr_Cyrl_BA": {
     "name": "Serbian (Cyrillic, Bosnia and Herzegovina)",
     "code": "sr-Cyrl-BA",
-    "dateFormat": "D.M.YYYY.",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD.MM.YYYY.",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "sr_Cyrl_ME": {
     "name": "Serbian (Cyrillic, Montenegro)",
     "code": "sr-Cyrl-ME",
-    "dateFormat": "D.M.YYYY.",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD.MM.YYYY.",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "sr_Cyrl_RS": {
     "name": "Serbian (Cyrillic, Serbia)",
     "code": "sr-Cyrl-RS",
-    "dateFormat": "D.M.YYYY.",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD.MM.YYYY.",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "sr_Latn": {
     "name": "Serbian (Latin)",
     "code": "sr-Latn",
-    "dateFormat": "D.M.YYYY.",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD.MM.YYYY.",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "sr_Latn_BA": {
     "name": "Serbian (Latin, Bosnia and Herzegovina)",
     "code": "sr-Latn-BA",
-    "dateFormat": "D.M.YYYY.",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD.MM.YYYY.",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "sr_Latn_ME": {
     "name": "Serbian (Latin, Montenegro)",
     "code": "sr-Latn-ME",
-    "dateFormat": "D.M.YYYY.",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD.MM.YYYY.",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "sr_Latn_RS": {
     "name": "Serbian (Latin, Serbia)",
     "code": "sr-Latn-RS",
-    "dateFormat": "D.M.YYYY.",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD.MM.YYYY.",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "sr": {
     "name": "Serbian",
     "code": "sr",
-    "dateFormat": "D.M.YYYY.",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD.MM.YYYY.",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "sn_ZW": {
     "name": "Shona (Zimbabwe)",
     "code": "sn-ZW",
+    "era": false,
     "dateFormat": "YYYY-MM-DD",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "sn": {
     "name": "Shona",
     "code": "sn",
+    "era": false,
     "dateFormat": "YYYY-MM-DD",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "ii_CN": {
     "name": "Sichuan Yi (China)",
     "code": "ii-CN",
+    "era": false,
     "dateFormat": "YYYY-MM-DD",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "ii": {
     "name": "Sichuan Yi",
     "code": "ii",
+    "era": false,
     "dateFormat": "YYYY-MM-DD",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "si_LK": {
     "name": "Sinhala (Sri Lanka)",
     "code": "si-LK",
-    "dateFormat": "YYYY-M-D",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "YYYY-MM-DD",
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "si": {
     "name": "Sinhala",
     "code": "si",
-    "dateFormat": "YYYY-M-D",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "YYYY-MM-DD",
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "sk_SK": {
     "name": "Slovak (Slovakia)",
     "code": "sk-SK",
-    "dateFormat": "D. M. YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD. MM. YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "sk": {
     "name": "Slovak",
     "code": "sk",
-    "dateFormat": "D. M. YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD. MM. YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "sl_SI": {
     "name": "Slovenian (Slovenia)",
     "code": "sl-SI",
-    "dateFormat": "D. M. YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD. MM. YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "sl": {
     "name": "Slovenian",
     "code": "sl",
-    "dateFormat": "D. M. YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD. MM. YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "xog_UG": {
     "name": "Soga (Uganda)",
     "code": "xog-UG",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "xog": {
     "name": "Soga",
     "code": "xog",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "so_DJ": {
     "name": "Somali (Djibouti)",
     "code": "so-DJ",
-    "dateFormat": "M/D/YYYY",
-    "splitedPositions": { "month": 0, "day": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "MM/DD/YYYY",
+    "dateSplitedPositions": { "month": 0, "day": 1, "year": 2 },
+    "dateRegex": {
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "year": "([0-9]{4})"
+    }
   },
   "so_ET": {
     "name": "Somali (Ethiopia)",
     "code": "so-ET",
-    "dateFormat": "M/D/YYYY",
-    "splitedPositions": { "month": 0, "day": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "MM/DD/YYYY",
+    "dateSplitedPositions": { "month": 0, "day": 1, "year": 2 },
+    "dateRegex": {
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "year": "([0-9]{4})"
+    }
   },
   "so_KE": {
     "name": "Somali (Kenya)",
     "code": "so-KE",
-    "dateFormat": "M/D/YYYY",
-    "splitedPositions": { "month": 0, "day": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "MM/DD/YYYY",
+    "dateSplitedPositions": { "month": 0, "day": 1, "year": 2 },
+    "dateRegex": {
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "year": "([0-9]{4})"
+    }
   },
   "so_SO": {
     "name": "Somali (Somalia)",
     "code": "so-SO",
-    "dateFormat": "M/D/YYYY",
-    "splitedPositions": { "month": 0, "day": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "MM/DD/YYYY",
+    "dateSplitedPositions": { "month": 0, "day": 1, "year": 2 },
+    "dateRegex": {
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "year": "([0-9]{4})"
+    }
   },
   "so": {
     "name": "Somali",
     "code": "so",
-    "dateFormat": "M/D/YYYY",
-    "splitedPositions": { "month": 0, "day": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "MM/DD/YYYY",
+    "dateSplitedPositions": { "month": 0, "day": 1, "year": 2 },
+    "dateRegex": {
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "year": "([0-9]{4})"
+    }
   },
   "es_AR": {
     "name": "Spanish (Argentina)",
     "code": "es-AR",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "es_BO": {
     "name": "Spanish (Bolivia)",
     "code": "es-BO",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "es_CL": {
     "name": "Spanish (Chile)",
     "code": "es-CL",
+    "era": false,
     "dateFormat": "DD-MM-YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "es_CO": {
     "name": "Spanish (Colombia)",
     "code": "es-CO",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "es_CR": {
     "name": "Spanish (Costa Rica)",
     "code": "es-CR",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "es_DO": {
     "name": "Spanish (Dominican Republic)",
     "code": "es-DO",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "es_EC": {
     "name": "Spanish (Ecuador)",
     "code": "es-EC",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "es_SV": {
     "name": "Spanish (El Salvador)",
     "code": "es-SV",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "es_GQ": {
     "name": "Spanish (Equatorial Guinea)",
     "code": "es-GQ",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "es_GT": {
     "name": "Spanish (Guatemala)",
     "code": "es-GT",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "es_HN": {
     "name": "Spanish (Honduras)",
     "code": "es-HN",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "es_419": {
     "name": "Spanish (Latin America)",
     "code": "es-419",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "es_MX": {
     "name": "Spanish (Mexico)",
     "code": "es-MX",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "es_NI": {
     "name": "Spanish (Nicaragua)",
     "code": "es-NI",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "es_PA": {
     "name": "Spanish (Panama)",
     "code": "es-PA",
+    "era": false,
     "dateFormat": "MM/DD/YYYY",
-    "splitedPositions": { "month": 0, "day": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "month": 0, "day": 1, "year": 2 },
+    "dateRegex": {
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "year": "([0-9]{4})"
+    }
   },
   "es_PY": {
     "name": "Spanish (Paraguay)",
     "code": "es-PY",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "es_PE": {
     "name": "Spanish (Peru)",
     "code": "es-PE",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "es_PR": {
     "name": "Spanish (Puerto Rico)",
     "code": "es-PR",
+    "era": false,
     "dateFormat": "MM/DD/YYYY",
-    "splitedPositions": { "month": 0, "day": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "month": 0, "day": 1, "year": 2 },
+    "dateRegex": {
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "year": "([0-9]{4})"
+    }
   },
   "es_ES": {
     "name": "Spanish (Spain)",
     "code": "es-ES",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "es_US": {
     "name": "Spanish (United States)",
     "code": "es-US",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "es_UY": {
     "name": "Spanish (Uruguay)",
     "code": "es-UY",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "es_VE": {
     "name": "Spanish (Venezuela)",
     "code": "es-VE",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "es": {
     "name": "Spanish",
     "code": "es",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "sw_KE": {
     "name": "Swahili (Kenya)",
     "code": "sw-KE",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "sw_TZ": {
     "name": "Swahili (Tanzania)",
     "code": "sw-TZ",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "sw": {
     "name": "Swahili",
     "code": "sw",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "sv_FI": {
     "name": "Swedish (Finland)",
     "code": "sv-FI",
+    "era": false,
     "dateFormat": "YYYY-MM-DD",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "sv_SE": {
     "name": "Swedish (Sweden)",
     "code": "sv-SE",
+    "era": false,
     "dateFormat": "YYYY-MM-DD",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "sv": {
     "name": "Swedish",
     "code": "sv",
+    "era": false,
     "dateFormat": "YYYY-MM-DD",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "gsw_CH": {
     "name": "Swiss German (Switzerland)",
     "code": "gsw-CH",
-    "dateFormat": "D.M.YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD.MM.YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "gsw": {
     "name": "Swiss German",
     "code": "gsw",
-    "dateFormat": "D.M.YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD.MM.YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "shi_Latn": {
     "name": "Tachelhit (Latin)",
     "code": "shi-Latn",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "shi_Latn_MA": {
     "name": "Tachelhit (Latin, Morocco)",
     "code": "shi-Latn-MA",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "shi_Tfng": {
     "name": "Tachelhit (Tifinagh)",
     "code": "shi-Tfng",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "shi_Tfng_MA": {
     "name": "Tachelhit (Tifinagh, Morocco)",
     "code": "shi-Tfng-MA",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "shi": {
     "name": "Tachelhit",
     "code": "shi",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "dav_KE": {
     "name": "Taita (Kenya)",
     "code": "dav-KE",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "dav": {
     "name": "Taita",
     "code": "dav",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "ta_IN": {
     "name": "Tamil (India)",
     "code": "ta-IN",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "ta_LK": {
     "name": "Tamil (Sri Lanka)",
     "code": "ta-LK",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "ta": {
     "name": "Tamil",
     "code": "ta",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "te_IN": {
     "name": "Telugu (India)",
     "code": "te-IN",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "te": {
     "name": "Telugu",
     "code": "te",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "teo_KE": {
     "name": "Teso (Kenya)",
     "code": "teo-KE",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "teo_UG": {
     "name": "Teso (Uganda)",
     "code": "teo-UG",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "teo": {
     "name": "Teso",
     "code": "teo",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "th_TH": {
     "name": "Thai (Thailand)",
     "code": "th-TH",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "th": {
     "name": "Thai",
     "code": "th",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "bo_CN": {
     "name": "Tibetan (China)",
     "code": "bo-CN",
-    "dateFormat": "YYYY-M-D",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "YYYY-MM-DD",
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "bo_IN": {
     "name": "Tibetan (India)",
     "code": "bo-IN",
-    "dateFormat": "YYYY-M-D",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "YYYY-MM-DD",
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "bo": {
     "name": "Tibetan",
     "code": "bo",
-    "dateFormat": "YYYY-M-D",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "YYYY-MM-DD",
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "ti_ER": {
     "name": "Tigrinya (Eritrea)",
     "code": "ti-ER",
+    "era": false,
     "dateFormat": "YYYY-MM-DD",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "ti_ET": {
     "name": "Tigrinya (Ethiopia)",
     "code": "ti-ET",
+    "era": false,
     "dateFormat": "YYYY-MM-DD",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "ti": {
     "name": "Tigrinya",
     "code": "ti",
+    "era": false,
     "dateFormat": "YYYY-MM-DD",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "to_TO": {
     "name": "Tonga (Tonga)",
     "code": "to-TO",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "to": {
     "name": "Tonga",
     "code": "to",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "tr_TR": {
     "name": "Turkish (Turkey)",
     "code": "tr-TR",
+    "era": false,
     "dateFormat": "DD.MM.YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "tr": {
     "name": "Turkish",
     "code": "tr",
+    "era": false,
     "dateFormat": "DD.MM.YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "uk_UA": {
     "name": "Ukrainian (Ukraine)",
     "code": "uk-UA",
+    "era": false,
     "dateFormat": "DD.MM.YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "uk": {
     "name": "Ukrainian",
     "code": "uk",
+    "era": false,
     "dateFormat": "DD.MM.YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "ur_IN": {
     "name": "Urdu (India)",
     "code": "ur-IN",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "ur_PK": {
     "name": "Urdu (Pakistan)",
     "code": "ur-PK",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "ur": {
     "name": "Urdu",
     "code": "ur",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "uz_Arab": {
     "name": "Uzbek (Arabic)",
     "code": "uz-Arab",
+    "era": false,
     "dateFormat": "YYYY-MM-DD",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "uz_Arab_AF": {
     "name": "Uzbek (Arabic, Afghanistan)",
     "code": "uz-Arab-AF",
+    "era": true,
     "dateFormat": " YYYY-MM-DD",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": true
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "uz_Cyrl": {
     "name": "Uzbek (Cyrillic)",
     "code": "uz-Cyrl",
+    "era": false,
     "dateFormat": "DD/MM/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "uz_Cyrl_UZ": {
     "name": "Uzbek (Cyrillic, Uzbekistan)",
     "code": "uz-Cyrl-UZ",
+    "era": false,
     "dateFormat": "DD/MM/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "uz_Latn": {
     "name": "Uzbek (Latin)",
     "code": "uz-Latn",
+    "era": false,
     "dateFormat": "DD/MM/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "uz_Latn_UZ": {
     "name": "Uzbek (Latin, Uzbekistan)",
     "code": "uz-Latn-UZ",
+    "era": false,
     "dateFormat": "DD/MM/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "uz": {
     "name": "Uzbek",
     "code": "uz",
+    "era": false,
     "dateFormat": "DD/MM/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "vi_VN": {
     "name": "Vietnamese (Vietnam)",
     "code": "vi-VN",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "vi": {
     "name": "Vietnamese",
     "code": "vi",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "vun_TZ": {
     "name": "Vunjo (Tanzania)",
     "code": "vun-TZ",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "vun": {
     "name": "Vunjo",
     "code": "vun",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "cy_GB": {
     "name": "Welsh (United Kingdom)",
     "code": "cy-GB",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "cy": {
     "name": "Welsh",
     "code": "cy",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "yo_NG": {
     "name": "Yoruba (Nigeria)",
     "code": "yo-NG",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "yo": {
     "name": "Yoruba",
     "code": "yo",
-    "dateFormat": "D/M/YYYY",
-    "splitedPositions": { "day": 0, "month": 1, "year": 2 },
-    "era": false
+    "era": false,
+    "dateFormat": "DD/MM/YYYY",
+    "dateSplitedPositions": { "day": 0, "month": 1, "year": 2 },
+    "dateRegex": {
+      "day": "(0?[1-9]|[12][0-9]|3[01])",
+      "month": "(0?[1-9]|1[012])",
+      "year": "([0-9]{4})"
+    }
   },
   "zu_ZA": {
     "name": "Zulu (South Africa)",
     "code": "zu-ZA",
+    "era": false,
     "dateFormat": "YYYY-MM-DD",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   },
   "zu": {
     "name": "Zulu",
     "code": "zu",
+    "era": false,
     "dateFormat": "YYYY-MM-DD",
-    "splitedPositions": { "year": 0, "month": 1, "day": 2 },
-    "era": false
+    "dateSplitedPositions": { "year": 0, "month": 1, "day": 2 },
+    "dateRegex": {
+      "year": "([0-9]{4})",
+      "month": "(0?[1-9]|1[012])",
+      "day": "(0?[1-9]|[12][0-9]|3[01])"
+    }
   }
 }
