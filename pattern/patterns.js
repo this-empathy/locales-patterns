@@ -5,8 +5,8 @@ const obj = {}
 
 const dataOptions = (data, code) => {
 	const valueOptions = {
-		month: data.value.length == 1 ? 'M' : 'MM',
-		day: data.value.length == 1 ? 'D' : 'DD',
+		month: 'MM',
+		day: 'DD',
 		year: 'YYYY',
 		literal: data.value,
 		default: () => {
@@ -40,9 +40,6 @@ const getDatesPositions = (format) => {
 
 const getRegex = (format) => {
 	const obj = {}
-
-	// ^(0?[1-9]|[12][0-9]|3[01])[\/\-](0?[1-9]|1[012])[\/\-]\d{4}$
-
 	const regexString = (data) => {
 		return {
 			month: '(0?[1-9]|1[012])',
@@ -63,8 +60,6 @@ const getRegex = (format) => {
 				regexString(item)[item.type] || regexString(item).default()
 		}
 	})
-
-	// obj.complete 
 
 	return obj
 }
